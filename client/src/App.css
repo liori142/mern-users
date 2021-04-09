@@ -1,0 +1,25 @@
+body{
+    background:'#eaeaea'
+}
+
+.userClass h3,img{
+    margin-top: 10px;  
+}
+
+.cardClass{
+    height:400px;    
+}
+
+.userContainer{
+    height:85vh;
+}
+.userClass{
+    height:60vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcomeClass{
+    font-size:1.5em
+}
