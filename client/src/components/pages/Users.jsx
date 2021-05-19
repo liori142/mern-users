@@ -15,9 +15,10 @@ export default function Users(props) {
     
     return (
         <div className="row d-flex justify-content-center min-vh-100">
-            {isLoggedIn? 
+            {isLoggedIn ? 
             object && object.map((item, index) => <Card key={index} name={item.name.first +" "+ item.name.last} age = {item.dob.age} email = {item.email} picture = {item.picture.large} obj ={item} />)
-            : <h3 className="mt-5">Log in to see users!</h3>}
+            :
+             <h3 className="mt-5">Log in to see users!</h3>}
         </div>
     )
 }
